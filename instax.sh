@@ -68,7 +68,7 @@ else
 default_wl_pass="password.txt"
 read -p $'\e[1;92mPassword List (Enter to default list): \e[0m' wl_pass
 wl_pass="${wl_pass:-${default_wl_pass}}"
-default_threads="10"
+default_threads="15""
 read -p $'\e[1;92mThreads (Use < 20, Default 10): \e[0m' threads
 threads="${threads:-${default_threads}}"
 fi
